@@ -1,0 +1,15 @@
+[project]
+name = "agui-cli"
+version = "0.1.0"
+description = "Cliente de línea de comandos para el protocolo ag-ui"
+readme = "README.md"
+authors = [{name = "Example"}]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+agui-cli = "agui_cli.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+packages = ["agui_cli"]
